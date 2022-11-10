@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "StratosSkyeng";
+  src: local("StratosSkyeng"), url("./fonts/stratosskyengweb-regular.woff") format("woff"), url("./fonts/stratosskyengweb-regular.woff2") format("woof");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "StratosSkyeng";
+  background-color: #004980;
+}
+
+.complexity_block {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.complexity {
+  width: 480px;
+  height: 495px;
+  background: #C2F5FF;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.complexity__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #004980;
+  padding-bottom: 48px;
+}
+.complexity__choice {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.complexity__button {
+  width: 98px;
+  height: 98px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #0080C1;
+  background: #FFFFFF;
+  border-radius: 12px;
+  border: none;
+}
+.complexity__button:hover {
+  color: #004980;
+}
+.complexity__button_start {
+  width: 246px;
+  height: 50px;
+  background: #7AC100;
+  border-radius: 12px;
+  border: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.complexity__button_start:hover {
+  background: #004980;
+}/*# sourceMappingURL=style.css.map */
